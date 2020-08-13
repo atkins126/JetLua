@@ -1,6 +1,6 @@
 ![](/images/logo256.png)
 # Welcome to JetLua&trade;
-An SDK to allow easy integration of Lua scripting inside your Delphi applications
+An SDK to allow easy integration of [Lua](https://www.lua.org/) scripting inside your [Delphi](https://www.embarcadero.com/products/delphi) applications
 ## Features
 * Made with/supports latest Delphi version
 * Only two minimal interfaces to access feature set (IJetLua & IJetLuaContext)
@@ -13,7 +13,7 @@ An SDK to allow easy integration of Lua scripting inside your Delphi application
 * You can pull and push data from and to the Lua stack via the IJetLuaContext interface
 * You can load source code from a file, string and buffer
 * You can import Lua modules
-* Source is JIT compiled using moonjit
+* Source is [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) compiled using [moonjit](https://github.com/moonjit/moonjit)
 * You can compile Lua sources (including imported modules) and bind to an EXE for stand-alone distribution
 * You can add version information, an icon, enable runtime-themes and high DPI aware support to EXEs
-* See this ![blog post](https://tinybiggames.com/projects/project/4-jetlua/) for more details
+* See this [blog post](https://tinybiggames.com/projects/project/4-jetlua/) for more details
