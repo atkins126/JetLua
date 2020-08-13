@@ -106,7 +106,7 @@ begin
 end.
 ```
 ### Register Lua Functions
-This is how you auto register Lua functions in JetLua. **Note** if you define a class function named `AutoSetup(aLua: IJetLua)`, it will automatically be called during the registration. This can be used to define globals and establish other initial conditions needed by this routines.
+This is how you auto register Lua functions in JetLua. **Note** if you define a class function named `AutoSetup(aLua: IJetLua)`, it will automatically be called during the registration. This can be used to define globals and establish other initial conditions needed by these routines.
 ```Pascal
 program AutoRegister;
 {$APPTYPE CONSOLE}
