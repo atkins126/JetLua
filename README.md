@@ -158,13 +158,13 @@ begin
   // Create and return a IJetLua interface
   JetLua_Interface(Lua, iaCreate);
   
-  // Auto register all ```IJetLuaContext``` routines in myfunc class
+  // Auto register all IJetLuaContext routines in myfunc class
   Lua.RegisterRoutines(myfunc);
   
   // Execute lua statements inside string
   Lua.LoadFile('main.lua');
   
-  // Destroy the ```IJetLua``` interface
+  // Destroy the IJetLua interface
   JetLua_Interface(Lua, iaDestroy);
 
   // Wait for ENTER key, then quit
