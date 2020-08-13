@@ -180,5 +180,6 @@ print("my_name: " .. my_name)
 local v = myfunc.vec()
 print("v.x: " .. tostring(v.x))
 print("v.info.name: " .. v.info.name)
+myfunc.test1("this is a test")
 ```
 
