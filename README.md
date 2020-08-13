@@ -16,4 +16,4 @@ An SDK to allow easy integration of [Lua](https://www.lua.org/) scripting inside
 * Source is [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) compiled using [moonjit](https://github.com/moonjit/moonjit)
 * You can compile Lua sources (including imported modules) and bind to an EXE for stand-alone distribution
 * You can add version information, an icon, enable runtime-themes and high DPI aware support to EXEs
-* See this [blog post](https://tinybiggames.com/projects/project/4-jetlua/) for more details
+* See this [blog post](https://tinybiggames.com/news/introducing-jetlua-easy-fast-and-fun-lua-sdk-for-delphi-r3/) for more details
