@@ -1,2 +1,2 @@
-# JetLua
-JetLua is a Lua SDK for Delphi to allow easy integration for Lua scripting inside your Delphi application.
+# JetLua&trade;
+An SDK to allow easy integration of Lua scripting inside your Delphi applications
