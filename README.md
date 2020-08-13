@@ -19,6 +19,7 @@ An SDK to allow easy integration of [Lua](https://www.lua.org/) scripting inside
 * See this [blog post](https://tinybiggames.com/news/introducing-jetlua-easy-fast-and-fun-lua-sdk-for-delphi-r3/) for more details
 ## A Tour of JetLua
 ### JetLua Interfaces
+You can access all functionality from these two minimal interfaces
 ```pascal
 { IJetLuaContext }
   IJetLuaContext = interface
