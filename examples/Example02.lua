@@ -1,2 +1,4 @@
 print("Hello World!")
-print("Running from a file on disk")
+print("")
+print("JetLua version: " .. jetlua.version)
+print("Lua version: " .. jetlua.luaversion)
