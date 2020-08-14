@@ -1,4 +1,4 @@
-![](/images/logo256.png)
+![](/images/logo.png)
 # Welcome to JetLua&trade;
 An SDK to allow easy integration of [Lua](https://www.lua.org/) scripting inside your [Delphi](https://www.embarcadero.com/products/delphi) applications
 ## Features
