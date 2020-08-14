@@ -102,7 +102,7 @@ disclaim any express or implied warranty of fitness for High Risk Activities.
 13. The Company does not represent or warrant that the Software is free of
 infringement of any third-party patents.
 
-External libraries used by Software
+Additional libraries used by Software
 -----------------------------------------------------------------------------
 * moonjit is under the MIT license
 * luabundle is under the MIT license
