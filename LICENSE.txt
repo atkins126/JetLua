@@ -1,4 +1,4 @@
-﻿End User License Agreement for JetLua™ SDK.
+End User License Agreement for JetLua™ SDK.
 
 BEFORE YOU USE THE SOFTWARE DISTRIBUTED WITH THIS LICENSE AGREEMENT,
 CAREFULLY READ THE TERMS AND CONDITIONS OF THIS AGREEMENT. BY USING THE
@@ -99,5 +99,9 @@ personal injury, or severe physical or environmental damage
 ("High Risk Activities"). The Company and its suppliers specifically
 disclaim any express or implied warranty of fitness for High Risk Activities. 
 
+<<<<<<< HEAD
 13. The Company does not represent or warrant that the Software is free of
 infringement of any third-party patents.
+=======
+13. The Company does not represent or warrant that the Software is free of infringement of any third-party patents.
+>>>>>>> 9b5be10489860c2225c8821048f15d0afaee72b2
