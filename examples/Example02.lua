@@ -21,6 +21,10 @@
  
 -----------------------------------------------------------------------------]]
 
+test = "JetLua"
+print("test: " .. test)
+print("")
+
 print("Host defined:")
 print("var_string : " .. var_string .. ", string value")
 print("var_integer: " .. tostring(var_integer) .. ", integer value")
@@ -36,3 +40,4 @@ var_string2  = '"string2"'
 var_integer2 = 888
 var_number2  = 2342.3
 var_boolean2 = true
+

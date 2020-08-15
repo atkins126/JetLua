@@ -37,6 +37,7 @@ var
   //buffer: string = 'print("Lun running from a buffer!")';
   Buffer: TStringStream;
 begin
+  // Report any memory leaks
   ReportMemoryLeaksOnShutdown := True;
 
   // create JetLua interface

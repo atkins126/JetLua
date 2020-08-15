@@ -34,17 +34,24 @@ var
   Lua: IJetLua;
   val: TJetLuaValue;
 begin
+  // Report any memory leaks
+  ReportMemoryLeaksOnShutdown := True;
+
+  // Create JetLua interface
   JetLua_Interface(Lua, iaCreate);
 
+  // Define Lua variable from host side
   Lua.SetVariable('var_string', '"My Name"');
   Lua.SetVariable('var_integer', 4321);
   Lua.SetVariable('var_number', 12.34);
   Lua.SetVariable('var_boolean', true);
 
+  // Load and run Lua source file
   Lua.LoadFile('Example02.lua');
 
+  // Display script assigned variables created on host side
   writeln;
-  writeln('Host assigned:');
+  writeln('Script assigned:');
   val := Lua.GetVariable('var_string', vtString);
   writeln('var_string: ', val.AsString, ', a string value');
 
@@ -57,6 +64,7 @@ begin
   val := Lua.GetVariable('var_boolean', vtBoolean);
   writeln('var_boolean: ', val.AsBoolean, ', a boolean value');
 
+  // Display script defined variables assigned on script side
   writeln;
   writeln('Script defined:');
   val := Lua.GetVariable('var_string2', vtString);
@@ -71,7 +79,11 @@ begin
   val := Lua.GetVariable('var_boolean2', vtBoolean);
   writeln('var_boolean2: ', val.AsBoolean, ', a boolean value');
 
+  // Display script defined variables assigned on host side
+  Lua.SetVariable('test', 'Easy! Fast! Fun!');
+  Lua.LoadString('print("\ntest: " .. test)');
 
+  // Destroy JetLua interface
   JetLua_Interface(Lua, iaDestroy);
 
   WriteLn;
