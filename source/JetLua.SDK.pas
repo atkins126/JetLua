@@ -118,7 +118,8 @@ type
     procedure SetVariable(aName: PChar; aValue: TJetLuaValue);
     function  GetVariable(aName: PChar; aType: TJetLuaValueType): TJetLuaValue;
 
-    procedure RegisterRoutine(aName: PChar; aRoutine: TJetLuaFunction);
+    procedure RegisterRoutine(aName: PChar; aData: Pointer; aCode: Pointer); overload;
+    procedure RegisterRoutine(aName: PChar; aRoutine: TJetLuaFunction); overload;
 
     procedure RegisterRoutines(aClass: TClass); overload;
     procedure RegisterRoutines(aObject: TObject); overload;
