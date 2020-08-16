@@ -17,6 +17,10 @@
 
 unit JetLua.SDK;
 
+{$IFDEF FPC}
+{$MODE DELPHIUNICODE}
+{$ENDIF}
+
 interface
 
 type
