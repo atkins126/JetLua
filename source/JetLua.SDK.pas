@@ -4,7 +4,7 @@
   _  | |/ _ \ __| |  | | | |/ _` |
  | |_| |  __/ |_| |__| |_| | (_| |
   \___/ \___|\__|_____\__,_|\__,_|
-          Delphi Lua SDK
+      Software Development Kit
 
  Copyright © tinyBigGAMES™ LLC
  All rights reserved.
@@ -87,6 +87,7 @@ type
   IJetLuaContext = interface
     ['{6AEC306C-45BC-4C65-A0E1-044739DED1EB}']
 
+    function  ArgCount: Integer;
     function  PushCount: Integer;
     procedure ClearStack;
     procedure PopStack(aCount: Integer);

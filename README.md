@@ -1,6 +1,6 @@
 ![](/images/logo.png)
 # Welcome to JetLua&trade;
-An SDK to allow easy integration of [Lua](https://www.lua.org/) scripting inside your [Delphi](https://www.embarcadero.com/products/delphi) applications
+An SDK to allow easy, fast & fun integration of [Lua](https://www.lua.org/) scripting inside your [Delphi](https://www.embarcadero.com/products/delphi) applications
 ## Features
 * Made with/supports latest Delphi version
 * Only two minimal interfaces to access feature set (IJetLua & IJetLuaContext)
@@ -57,7 +57,8 @@ You can access all functionality from these two minimal interfaces
     procedure SetVariable(aName: PChar; aValue: TJetLuaValue);
     function  GetVariable(aName: PChar; aType: TJetLuaValueType): TJetLuaValue;
 
-    procedure RegisterRoutine(aName: PChar; aRoutine: TJetLuaFunction);
+    procedure RegisterRoutine(aName: PChar; aData: Pointer; aCode: Pointer); overload;
+    procedure RegisterRoutine(aName: PChar; aRoutine: TJetLuaFunction); overload;
 
     procedure RegisterRoutines(aClass: TClass); overload;
     procedure RegisterRoutines(aObject: TObject); overload;
@@ -79,7 +80,7 @@ You can access all functionality from these two minimal interfaces
 
     function  HasPayload: Boolean;
     procedure RunPayload;
-  end;  
+  end;
 ```
 ### Hello World
 The simplest example of usage.
@@ -162,7 +163,7 @@ begin
   // Auto register all IJetLuaContext routines in myfunc class
   Lua.RegisterRoutines(myfunc);
   
-  // Execute lua statements inside string
+  // Load and execute Lua source on disk
   Lua.LoadFile('main.lua');
   
   // Destroy the IJetLua interface
