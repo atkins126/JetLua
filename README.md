@@ -1,4 +1,7 @@
 ![](/images/logo.png)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/JetLua) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/JetLua) ![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social) 
+
 # Welcome to JetLua&trade;
 An SDK to allow easy, fast & fun integration of [Lua](https://www.lua.org/) scripting inside your [Delphi](https://www.embarcadero.com/products/delphi) applications
 ## Features
