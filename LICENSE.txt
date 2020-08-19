@@ -12,21 +12,48 @@ JetLua™ SDK (the "Software"), in binary executable form to develop products
 (the "Product"). The Software is formed of the Software libraries, compiled
 utilities, example programs in source code format, and documentation. 
 
-2. The Software may be used by an unlimited number of developers to develop a
-unlimited number of commerical and/or non-commercial Products. The Product
+2. The Software is licensed, not sold. The Software is protected by copyright
+law and international copyright treaty provisions, as well as other
+intellectual property laws and treaties. Customer must not allow copies of the
+Software or any part of it to be made or distributed to anyone else. Customer
+may make backup copies of the software for archival purposes only. The
+Customer acknowledges that a separate Redistribution License from the Company
+is required in order to redistribute any part of this Software. 
+
+3. For freeware licenses: The Software may be used by an unlimited number of
+developers to develop the Product. The Product may be distributed to an
+unlimited number of clients, as long as the Software and the Company is
+listed in the Products credits. No fees can be charged for distribution or
+use of your products. The watermark/splash screen must remain intact.
+
+4. For commercial solo licenses: The Software may be used by an single
+developer to develop a unlimited number of commercial Products. The Product
 may be distributed to an unlimited number of clients, with no distribution or
 usage restrictions. 
 
-3. The Software is "in use" on a computer when it is loaded into the
+5. For commercial site licenses: The Software may be used by an specific
+number of developers to develop a unlimited number of commercial Products.
+The Product may be distributed to an unlimited number of clients, with no
+distribution or usage restrictions.
+
+6. In addition the Company grants Customers who have purchased a 
+commercial license, or is a member of a group which has purchased a site
+license, (the "Registered Developer") access to a restricted web page on the
+Company web site that contains downloadable software solely for the use of
+licensed developers. The amount of the license fee and duration is available
+on the Company website at "https://tinybiggames.com" and is subject to
+change at any time.  
+
+7. The Software is "in use" on a computer when it is loaded into the
 temporary memory (i.e. RAM) or installed into the permanent memory (e.g.,
 hard disk, CD-ROM or other storage device) of that computer. 
 
-4. The Software is FREEWARE. You may not pay to use it, may not be rented,
-leased, or in any other manner commercially exploited without the Company's
-prior written permission. This License is personal to Customer and Customer
-agrees not to assign your rights herein. 
+8. The Software may not be rented, leased, or in any other manner
+commercially exploited without the Company's prior written permission. This
+License is personal to Customer and Customer agrees not to assign your
+rights herein. 
 
-5. The Software may include certain files ("Redistributables") intended for
+9. The Software may include certain files ("Redistributables") intended for
 distribution by you to the users of the Product you create. Copies of
 Redistributables may only be distributed with and for the sole purpose of
 executing application programs permitted under this statement that you have
@@ -35,24 +62,24 @@ Redistributables be distributed separately. You should refer to the
 documentation, including any "readme" or "deploy" files included with the
 Software, for additional information.
 
-6. LIMITATION OF WARRANTY. THE COMPANY MAKES NO REPRESENTATIONS OR WARRANTIES
-ABOUT THE SUITABILITY OF THIS SOFTWARE OR ABOUT ANY CONTENT OR INFORMATION
-PLAYED BY THE SOFTWARE, FOR ANY PURPOSE. THE SOFTWARE IS PROVIDED 'AS IS'
-WITHOUT EXPRESS OR IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT. THE
-COMPANY MAY NOT SUPPORT THIS SOFTWARE AND MAY NOT ISSUE UPDATES TO THIS
+10. LIMITATION OF WARRANTY. THE COMPANY MAKES NO REPRESENTATIONS OR
+WARRANTIES ABOUT THE SUITABILITY OF THIS SOFTWARE OR ABOUT ANY CONTENT OR
+INFORMATION PLAYED BY THE SOFTWARE, FOR ANY PURPOSE. THE SOFTWARE IS
+PROVIDED 'AS IS' WITHOUT EXPRESS OR IMPLIED WARRANTIES, INCLUDING WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
+THE COMPANY MAY NOT SUPPORT THIS SOFTWARE AND MAY NOT ISSUE UPDATES TO THIS
 SOFTWARE. 
 
-7. All video, audio, and other content accessed through the Software is the
+11. All video, audio, and other content accessed through the Software is the
 property of the applicable content owner and may be protected by applicable
 copyright law. This License gives Customer no rights to such content, and
 Company disclaims any liability for misuse of content. 
 
-8. The Company reserves the right at any time to alter prices, features,
+12. The Company reserves the right at any time to alter prices, features,
 specifications, capabilities, functions, licensing terms, release dates,
 general availability or other characteristics of the released product. 
 
-9. Title, ownership rights, and intellectual property rights in and to the
+13. Title, ownership rights, and intellectual property rights in and to the
 Software shall remain in the Company and/or its suppliers. Customer agrees to
 abide by the copyright law and all other applicable laws of the United States
 including, but not limited to, export control laws. Customer acknowledges
@@ -64,7 +91,7 @@ laws specifically prohibit such restriction. Reproduction and/or
 redistribution of any portion of the Software is specifically prohibited
 without the Company's prior written permission. 
 
-10. Any Party may terminate the Term of this Agreement effective upon written
+14. Any Party may terminate the Term of this Agreement effective upon written
 notice to the other Parties if any other Party materially breaches any of
 such Party's obligations under this Agreement, and that Party has not cured
 the breach within thirty (30) days after notice of the breach from the
@@ -76,7 +103,7 @@ and, as to matters affecting copyrights, trademarks and patents, by U.S.
 federal law. This License sets forth the entire agreement between the Company
 and Customer. 
 
-11. DISCLAIMER OF LIABILITY. THE COMPANY OR ITS SUPPLIERS SHALL NOT BE LIABLE
+15. DISCLAIMER OF LIABILITY. THE COMPANY OR ITS SUPPLIERS SHALL NOT BE LIABLE
 FOR (a) DIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR INDIRECT DAMAGES OF ANY
 SORT WHATSOEVER, WHETHER ARISING IN TORT, CONTRACT OR OTHERWISE, (INCLUDING
 WITHOUT LIMITATION DAMAGES FOR LOSS OF BUSINESS PROFITS, REVENUES, OR
@@ -89,7 +116,7 @@ SUCH LIMITATION. FURTHERMORE, SOME STATES DO NOT ALLOW THE EXCLUSION OR
 LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION AND
 EXCLUSION MAY NOT APPLY TO CUSTOMER. 
 
-12. HIGH RISK ACTIVITIES. The Software is not fault-tolerant and is not
+16. HIGH RISK ACTIVITIES. The Software is not fault-tolerant and is not
 designed, manufactured or intended for use or resale as on-line control
 equipment in hazardous environments requiring fail-safe performance, such as
 in the operation of nuclear facilities, aircraft navigation or communication
@@ -99,7 +126,7 @@ personal injury, or severe physical or environmental damage
 ("High Risk Activities"). The Company and its suppliers specifically
 disclaim any express or implied warranty of fitness for High Risk Activities. 
 
-13. The Company does not represent or warrant that the Software is free of
+17. The Company does not represent or warrant that the Software is free of
 infringement of any third-party patents.
 
 Additional libraries used by Software
