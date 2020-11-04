@@ -1,3 +1,5 @@
+# NOTE: Further development of JetLua will be here: https://github.com/tinyBigGAMES/Vivace
+
 ![](/images/logo.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/JetLua) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/JetLua) ![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/JetLua?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/JetLua?style=social)
