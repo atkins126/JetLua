@@ -21,7 +21,7 @@ An SDK to allow easy, fast & fun integration of [Lua](https://www.lua.org/) scri
 * Source is [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) compiled using [moonjit](https://github.com/moonjit/moonjit)
 * You can compile Lua sources (including imported modules) and bind to an EXE for stand-alone distribution
 * You can add version information, an icon, enable runtime-themes and high DPI aware support to EXEs
-* JetLua is being used to create [Vivace™ Game Toolkit (ve'va'CHe)](https://vivace.dev).
+
 
 ## A Tour of JetLua
 ### JetLua Interfaces
